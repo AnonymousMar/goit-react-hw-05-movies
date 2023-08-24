@@ -23,7 +23,7 @@ export default function Searchbar({ onSubmit }) {
       return;
     }
     onSubmit(query);
-    setQuery("");
+   // setQuery("");
   };
 
   return (
